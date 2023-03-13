@@ -2,7 +2,7 @@ from fastapi import APIRouter
 
 from models.user import User
 from config.db import conn
-from schemas.user import userEntity, usersEntity                     #for getting single & list of user
+from schemas.user import userEntity, usersEntity                     #for getting single & list of user, use this line
 from bson import ObjectId
 
 
